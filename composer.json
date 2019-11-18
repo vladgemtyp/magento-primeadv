@@ -1,0 +1,16 @@
+{
+    "name": "popov/magento-primeadv",
+    "type": "magento-module",
+    "license":"MIT Licence",
+    "description":"Primeadv Retargeting",
+    "authors":[{
+        "name":"Serhii Popov",
+        "email":"popow.serhii@gmail.com"
+    }],
+    "extra": {
+        "map": [
+          ["app/etc/modules/Popov_Primeadv.xml", "app/etc/modules/Popov_Primeadv.xml"],
+          ["app/code/community/Popov/Primeadv/", "app/code/community/Popov/Primeadv/"]
+	]
+    }
+}
